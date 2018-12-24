@@ -6,7 +6,7 @@
 #end
 
 def reverse_each_word(sentence1)
-  sentence2 = sentence1.split.each {|word| push(word.reverse)}
+  sentence1.split.each {|word| sentence2.push(word.reverse)}
   sentence2.join(" ")
 end
 
